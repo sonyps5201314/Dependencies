@@ -50,6 +50,12 @@ namespace Dependencies
 			{
 				selectedExports.Add((import as DisplayPeExport));
 			}
+			if (SelectedIndex != 0)
+			{
+				var firstSelectedItem = selectedExports[0];
+				selectedExports.Remove(firstSelectedItem);
+				selectedExports.Insert(SelectedIndex, firstSelectedItem);
+			}
 
 			var result = MessageBox.Show("Only copy the function names?", "Copy", MessageBoxButton.YesNoCancel, MessageBoxImage.Question, MessageBoxResult.Cancel);
 			if (result == MessageBoxResult.Cancel)
