@@ -1362,8 +1362,7 @@ namespace Dependencies
             if (Source == null)
                 return;
 
-            String SelectedModuleName = Source.GetTreeNodeHeaderName(Dependencies.Properties.Settings.Default.FullPath);
-            String commandParameter = "/select,\"" + SelectedModuleName + "\"";
+            String commandParameter = "/select,\"" + Source.ModuleFilePath + "\"";
 
             Process.Start("explorer.exe", commandParameter);
         }
