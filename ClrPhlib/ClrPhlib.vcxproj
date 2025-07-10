@@ -148,6 +148,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <PrecompiledHeaderFile />
       <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(OutputPath)\phlib.lib;$(OutputPath)\demumble.lib;$(OutputPath)\llvm-demangle.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -166,6 +167,7 @@
       <BasicRuntimeChecks>Default</BasicRuntimeChecks>
       <PrecompiledHeaderFile />
       <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(OutputPath)\phlib.lib;$(OutputPath)\demumble.lib;$(OutputPath)\llvm-demangle.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -182,6 +184,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeaderFile />
       <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(OutputPath)\phlib.lib;$(OutputPath)\demumble.lib;$(OutputPath)\llvm-demangle.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -198,6 +201,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(OutputPath)\phlib.lib;$(OutputPath)\demumble.lib;$(OutputPath)\llvm-demangle.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -213,6 +217,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeaderFile />
       <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(OutputPath)\phlib.lib;$(OutputPath)\demumble.lib;$(OutputPath)\llvm-demangle.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -229,6 +234,7 @@
       <PrecompiledHeaderFile>
       </PrecompiledHeaderFile>
       <TreatWarningAsError>true</TreatWarningAsError>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
       <AdditionalDependencies>$(OutputPath)\phlib.lib;$(OutputPath)\demumble.lib;$(OutputPath)\llvm-demangle.lib;bcrypt.lib;%(AdditionalDependencies)</AdditionalDependencies>
